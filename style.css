@@ -1,0 +1,174 @@
+
+ body {
+	 margin: 0px;
+	 padding: 0px;
+ background-size: cover;
+ background-position: center;
+ background-color: lightblue;
+ width:100%;
+ height:100%;
+ 
+}
+
+.loginbox{ width: 100%;
+        height: 100% ;
+		background: gray;
+		color: #fff;
+		
+		/*position: absolute;*/
+		/*transform: translate(-50%, -50%);*/
+		box-sizing: border-box;
+		box-padding: 50px 50px;
+		padding: 50px 50px ;
+		font-size: 20px;
+}
+h1{ margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  color: pink;
+  font-weight: normal;
+}
+
+
+.loginbox input {
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.loginbox input [type="text"]{
+	border-bottom: 1px solid #GrayText;
+	background: transparent;
+	height: 100%;
+	color: gray;
+	font-size: 15px;
+}
+.loginbox input[type="submit"]
+{width: 100%;
+background-color: lightblue;
+height: 100%;
+font-size: 17px;
+border-radius: 20px;
+border: none;
+margin-right: 10px;
+}
+.loginbox input[type="submit"]:hover
+{ cursor: pointer;
+background: lightgreen;
+}
+.loginbox a{
+	font size: 15px;
+	line-height: 20px;
+	color: pink;
+}
+.loginbox a:hover{
+	color: lightblue;
+	
+}
+
+.conference{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.frm{
+	margin-bottom: 1.2rem;
+}
+
+.frm label{
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #BE0D00;
+  color: white;
+}
+.det{
+  margin-top: 0;
+}
+
+
+.btnd a{
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  background: #fb9678;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+.btna a{
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  background: #00c292;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+.btnr a{
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  background: #FF0000;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+.dow{
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+  background: green;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.profile{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profiles{
+  padding-top: 20px;
+}
+
+.profiles p strong{
+  padding-right: 10px;
+  font-size: 1.6rem;
+}
+
+.icon-bar{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   z-index: 999;
+}
+
+

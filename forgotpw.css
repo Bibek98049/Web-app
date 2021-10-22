@@ -1,0 +1,68 @@
+ body {
+	 margin: 0px;
+	 padding: 0px;
+ background-size: cover;
+ background-position: center;
+ background-color: lightblue;
+ 
+}
+
+.loginbox{ width: 320px;
+        height: 420 px;
+		background: gray;
+		color: #fff;
+		top: 40%;
+		left: 40%;
+		position: absolute;
+		transform: translate ( -50%, -50%);
+		box-sizing: border-box;
+		box-padding: 50px 50px;
+		padding: 50px 50px ;
+		font-size: 20px;
+}
+h1{ margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  color: pink;
+  font-style: serif;
+  font-weight: normal;
+}
+
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.loginbox input [type="text"]{
+	border-bottom: 1px solid #GrayText;
+	background: transparent;
+	height: 40px;
+	color: gray;
+	font-size: 15px;
+}
+.loginbox input[type="submit"]
+{width: 230px;
+background-color: lightblue;
+height: 40px;
+font-size: 17px;
+border-radius: 20px;
+border: none;
+}
+.loginbox input[type="submit"]:hover
+{ cursor: pointer;
+background: lightgreen;
+}
+.loginbox a{
+	font size: 15px;
+	line-height: 20px;
+	color: pink;
+}
+.loginbox a:hover{
+	color: lightblue;
+	
+}
+
+
+

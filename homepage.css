@@ -1,0 +1,75 @@
+body {
+ margin: 0px;
+ padding: 0px;
+background-size: cover !important;
+ background-position: center !important;
+ background-color: lightblue !important;
+}
+.header {
+	margin: 0px ;
+
+	
+}
+ 
+.logout { 
+display: flex;
+flex-direction: row;
+float: right;
+font-size: 21px;
+font-weight: normal;
+margin-top: 20px;
+padding-right: 40px;
+}
+.logout a { 
+color: gray;
+}
+
+.lgo{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.logout a:link{
+
+text-decoration: none;
+	color: black;}
+
+.logout a:hover {
+ color: black; /* Add a hover color */
+}
+.img-background {
+	
+	margin: none;
+	padding: opx;
+    size:100%;
+}
+
+.icon-bar {
+  width: 100%; /* Full-width */
+  background-color: none; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: black; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.btns{
+  background-color: #f1f1f1 !important;
+}
+
+.btns:hover {
+  background-color: #04AA6D !important; /* Add a hover color */
+  color: #fff;
+}
+
+input{
+  color: #000 !important;
+}
